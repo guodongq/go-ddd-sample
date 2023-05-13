@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package dddsample;
+
+service ProjectAPI {
+  rpc CreateProject(CreateProjectRequest) returns (CreateProjectResponse);
+}
+
+
+message CreateProjectRequest {
+  string name = 1;
+}
+
+message CreateProjectResponse {
+  string name = 1;
+}
+

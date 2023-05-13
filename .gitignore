@@ -1,0 +1,4 @@
+bazel-bin
+bazel-go-ddd-sample
+bazel-out
+bazel-testlogs
